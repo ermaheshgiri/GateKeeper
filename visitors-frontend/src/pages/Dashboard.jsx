@@ -53,7 +53,7 @@ export default function Dashboard() {
       <main className="flex justify-center mt-10 px-4">
         <div className="bg-white p-10 rounded-2xl shadow-xl w-full max-w-3xl">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-            Welcome, {username}! 👋
+            Welcome, {username}! 
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             Use the navigation above to manage visitor records and perform check-in/check-out operations.

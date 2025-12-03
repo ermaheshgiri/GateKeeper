@@ -37,7 +37,7 @@ export default function Login() {
 
         <form className="space-y-6" onSubmit={submit}>
 
-          {/* Username */}
+          
           <div>
             <label className="block text-gray-700 font-medium mb-1">Username</label>
             <input
@@ -51,7 +51,7 @@ export default function Login() {
             />
           </div>
 
-          {/* Password */}
+          
           <div>
             <label className="block text-gray-700 font-medium mb-1">Password</label>
             <input
@@ -65,7 +65,7 @@ export default function Login() {
             />
           </div>
 
-          {/* Submit */}
+          
           <button
             type="submit"
             disabled={loading}
